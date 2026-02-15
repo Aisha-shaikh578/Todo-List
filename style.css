@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+  background-color: burlywood;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.todoDiv,
+.todo-input-div{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  gap: 10px;
+  align-items: center;
+}
+
+.todo-input-div{
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+
+.input,
+.date{
+  font-size: 15px;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid;
+  outline: none;
+}
+
+.addBtn{
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.deleteBtn{
+  background-color: darkred;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px;
+}
